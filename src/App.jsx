@@ -25,7 +25,6 @@ function App() {
           Authorization: "Bearer " + token,
         },
       });
-     
       setUser(data);
     } catch (error) {
       console.log(error.response);
